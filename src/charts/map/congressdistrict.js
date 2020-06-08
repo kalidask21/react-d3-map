@@ -11,7 +11,7 @@ class CongressDistrict extends Component{
 
     componentWillMount(){
         console.log('componentWillMount');
-        const usJson =  fetch('./us.json', {
+        const usJson =  fetch('./map/us.json', {
             headers : { 
               'Content-Type': 'application/json',
               'Accept': 'application/json'
@@ -19,7 +19,7 @@ class CongressDistrict extends Component{
          }).then(res => res.json());
       
 
-        const usCongress = fetch('./us-congress-113.json', {
+        const usCongress = fetch('./map/us-congress-113.json', {
             headers : { 
               'Content-Type': 'application/json',
               'Accept': 'application/json'

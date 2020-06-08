@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import CongressDistrict from './congressdistrict'
+import CongressDistrict from './charts/map/congressdistrict'
 
 class App extends Component {
   render() {
